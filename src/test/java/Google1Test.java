@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.open;
 
-class GoogleTest extends BaseTest {
+class Google1Test extends BaseTest {
 
     @Test
     void searchInGoogle() {
-        open("https://google.com");
-        System.out.println("GT" + Selenide.sessionId());
-        $x(".//div[@Class='120']").should(Condition.visible);
+        open("/");
+        System.out.println("GT1" + Selenide.sessionId());
+        $x(".//div[@Class='121']").should(Condition.visible);
     }
 }
