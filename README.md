@@ -1,2 +1,4 @@
-# selenide-allure-junit
-Maven selenide-allure-junit
+# For runing test use command in Terminal: 
+mvn clean test Then generate 
+# Allure report in Terminal: 
+allure serve target/allure-results
